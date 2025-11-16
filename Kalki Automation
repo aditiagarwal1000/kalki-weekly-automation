@@ -1,0 +1,12 @@
+git clone https://github.com/YOUR_USERNAME/kalki-weekly-automation.git
+cd kalki-weekly-automation
+
+# Unzip the automation package
+unzip ~/Downloads/kalki_weekly_setup.zip -d .
+
+# Stage files
+git add .
+git commit -m "Initial Kalki weekly automation setup"
+
+# Push to GitHub
+git push origin main
